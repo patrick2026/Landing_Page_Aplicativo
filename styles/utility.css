@@ -1,10 +1,47 @@
+.py-base {
+  padding-block: var(--py-base);
+}
+
+.py-lg {
+  padding-block: var(--py-lg);
+}
+
+.py-xl {
+  padding-block: var(--py-xl);
+}
+
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
 .container {
   /*fazendo para dispositivo menores*/
   --max-width: 375px;
   width: min (var(--max-width), 100% - var(--px-lg) * 2);
 }
+
+.desktop-only {
+  /*qiando aplicar na div ela vai sumir moblie*/
+  display: none;
+}
+
+.even-columns {
+  /*vai colocar em coluna e cortalos ao meio*/
+  display: grid;
+  gap: 1rem;
+}
+
+/*display maoir*/
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;
+  }
+  .desktop-only {
+    display: initial; /*vai pegar o display inicial*/
+  }
+  .even-columns {
+    /*cada coluna vai se encaixar por igual*/
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
   }
 }
