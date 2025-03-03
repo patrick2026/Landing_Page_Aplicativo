@@ -7,7 +7,7 @@ Bem-vindo ao MusicApp, um projeto de uma landing page responsiva para um aplicat
 <br>
 <br>
 🔗 Acesse o projeto aqui 
- (adicione uma imagem de preview do projeto)
+https://patrick2026.github.io/Landing_Page_Aplicativo/
 <br>
 🚀 Tecnologias Utilizadas
 <br>
