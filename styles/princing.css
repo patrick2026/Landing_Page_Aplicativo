@@ -1,0 +1,4 @@
+#princing ul {
+  /*tiro o pontinho da lista, mais posso voltar usando (ul [role="list"]) no html*/
+  list-style: none;
+}
